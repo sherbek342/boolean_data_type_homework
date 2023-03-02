@@ -7,5 +7,4 @@ def main(a):
         bool
     """
     return a >= 0 and a != 0
-
 print(main(0))
