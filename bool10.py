@@ -8,6 +8,7 @@ def main(a):
         bool
     """  
     v = math.sqrt(a)
+    f = round(v)
 
-    return v*v==a
-print(main(9))
+    return f*f==a
+print(main(a))
