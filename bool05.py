@@ -6,6 +6,6 @@ def main(a):
     Returns:
         bool
     """
-    b = a%2==1
-    return a
+
+    return a %2 != 0
 print(main(3))
