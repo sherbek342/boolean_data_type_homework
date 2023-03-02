@@ -7,7 +7,6 @@ def main(a,b):
     Returns:
         bool
     """
-    
-    
     return a==b
+
 print(main(1, 1)) 
