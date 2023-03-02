@@ -7,7 +7,6 @@ def main(a):
     Returns:
         bool
     """
-    kv = math.sqrt(a)
-    
-    return kv
+    kv = math.sqrt(a)   
+    return kv 
 print(main(121))
