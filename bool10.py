@@ -1,3 +1,4 @@
+import math
 def main(a):
     """
     Check that the number "a" is a perfect square.
@@ -6,5 +7,7 @@ def main(a):
     Returns:
         bool
     """
-    # Write your code here
-    return 
+    kv = math.sqrt(a)
+    
+    return kv
+print(main(121))
