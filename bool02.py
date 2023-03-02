@@ -6,6 +6,7 @@ def main(a):
     Returns:
         bool
     """
+    
     # Write your code here
     return a ==7
 print(main(1))
